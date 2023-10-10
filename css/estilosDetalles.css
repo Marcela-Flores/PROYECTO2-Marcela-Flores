@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgb(248, 245, 252);
+  }
+  
+  /* variables */
+  .violeta{
+    background-color: rgb(217, 180, 251);
+  }
+  .sombraRadio{
+    box-shadow: 1px 1px  20px 3px rgb(189, 186, 186);
+   border-radius: 8px;
+  }
+  .centrado{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+  }
+  
+  .tarj-p{
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    font-size: x-large;
+    
+  }
+  .tarj-m{
+    margin-top: 1rem;
+    width: 3.5rem;
+    height: 4.3rem;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+  }
+ 
+  
+  
+  .img-m{
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+  }
+  
+  .navegador{
+    width: 100%;
+    color: aliceblue;
+    display: grid;
+    /* grid-template-columns: 2fr 2fr 2fr; */
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    height: 6rem;
+    margin-top: 1rem;
+    /* margin-right: 2rem; */
+  
+  }
+  .usuario{
+    display: flex;
+    gap: 2rem;
+  }
+  .imagenUsuario{
+    width: 30px;
+  } 
+  .inputBuscador{
+    margin-top: 1rem;
+    width: 50%;
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.logo{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: black;
+    margin: 5rem 0.5rem 0.5rem 0.5rem;
+    height: 50px;
+    font-size: 0.5rem;
+    display: flex;
+    padding: 1rem;
+  } 

@@ -1,10 +1,6 @@
-// Define la función obtenerLibroAleatorio
-
-
-
 
 document.addEventListener('DOMContentLoaded', ()=>{
-    const productList = document.getElementById('product-list');
+    let productList = document.getElementById('product-list');
     const url = './prueba2.json';// atrapamos la ruta y la guardamos en una constante
 
     // Cargar los datos desde el archivo JSON utilizando fetch
@@ -27,6 +23,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
                 <h5 class="centrado">${categoria.categoria}</h5>
                 <button data-product="${JSON.stringify(categoria)}">+</button>
                 `;
+
+                // const libros = categoria.categoria
                 
                 productList.appendChild(productDiv);
                 // function obtenerLibroAleatorio(categoria) {
@@ -38,11 +36,21 @@ document.addEventListener('DOMContentLoaded', ()=>{
             });
             
         })
-        // .catch(error =>{
-        //     console.error('Error:', error);
-        // });
+        .catch(error =>{
+            console.error('Error:', error);
+        });
     
-    // productList.addEventListener('click', event =)
+    productList.addEventListener('click', event =>{
+        if (event.target.tagName === 'BUTTON'){
+            const productData = JSON.parse(event.target.getAttribute('data-product'));
+            
+            // Almacena el objeto de Libro en localStorage
+            localStorage.setItem('selectedProduct', JSON.stringify('productData'));
+            
+            // Redirige a la pagina de detalle...
+            window.location.href = 'detalle.html'
+        }
+    });
 
 
-})
+});

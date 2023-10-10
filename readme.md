@@ -1,3 +1,23 @@
+Hola Buen día !!!....La idea de este proyecto es poder hacer una página de "libros_usados " donde los usuarios puedan:
+
+* moverse en un ambiente dinámico
+* Dejar comentarios y valoración de los pruductos
+* Cagar libros para vender
+* Ubicar a compradores cercas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Para cerrar la cursada del lenguaje JavaScript, te proponemos un proyecto final simple, donde aplicarás los conocimientos adquiridos.
 
 El mismo consiste en desarrollar una landing page de productos o servicios. Puedes utilizar HTML + CSS, ó BootStrap, o cualquier otro Framework CSS con el cual te sientas más a gusto, para hacer el trabajo de diseño web.
