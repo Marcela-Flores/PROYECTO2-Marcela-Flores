@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', ()=>{
     let productList = document.getElementById('product-list');
-    const url = './prueba2.json';// atrapamos la ruta y la guardamos en una constante
+    const url = './libros-detalles.json';// atrapamos la ruta y la guardamos en una constante
 
     // Cargar los datos desde el archivo JSON utilizando fetch
 

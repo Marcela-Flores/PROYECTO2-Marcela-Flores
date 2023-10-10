@@ -8,9 +8,21 @@
     background-color: rgb(248, 245, 252);
   }
   
-  /* variables */
-  .violeta{
-    background-color: rgb(217, 180, 251);
+  /* variables color */
+  .c-primario{
+    color: rgb(143, 67, 179); 
+  }
+  .c-secundario{
+    color: antiquewhite;
+  }
+  /* --------------------------- */
+
+  /* variables formato */
+  .letra-m{
+    font-size: 5rem;
+  }
+  .letra-g{
+    font-size: 6rem;
   }
   .sombraRadio{
     box-shadow: 1px 1px  20px 3px rgb(189, 186, 186);
@@ -37,14 +49,13 @@
     display: grid;
     grid-template-rows: 3fr 1fr;
   }
- 
-  
-  
   .img-m{
     width: 7rem;
     height: 7rem;
     padding: 1rem;
   }
+
+  /* ------------------------------------------ */
   
   .navegador{
     width: 100%;
@@ -78,6 +89,7 @@
     height: 3rem;
     font-size: 1.3rem;
     padding: 1rem;
+    border: none;
     
   
   } 
