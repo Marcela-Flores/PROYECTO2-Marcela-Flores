@@ -1,4 +1,18 @@
-Hola Buen día !!!....La idea de este proyecto es poder hacer una página de "libros_usados " donde los usuarios puedan:
+
+
+------------------------------LEER----------------------------------------------------------------------------
+
+Hola Buen día !!!....La idea de este proyecto es poder hacer una página de: ("libros_usados");
+ en un primer momento se conectaba con un fech a la Api de Pixabay pero, como posee pocas imagenes sobre libros se cambió a conectar con fech a un ¡JSONlocal! |(el archivo.json se armó con ChatGPT )|;
+ la idea es tener en la pagina principal un "buscador": que haga busqueda tomando como  .referencia(titulo, autor y/o categoria) y te direcione (=>) a 
+ ||pagina-detalle.muestre `todas_las_coincidencia`;  
+ 
+ En index.html
+        Abajo  ↧ de "buscador";
+        (categorias_mas_populares)*10 "+" agregadoDeEvento.
+         y que se puedan mover de posición dependiendo su puntuacion;
+        Que "tarjeta_categoría" tome  la imagen del libro mas popular de su rama;
+       
 
 * moverse en un ambiente dinámico.
 * Dejar comentarios y valoración de los pruductos.
