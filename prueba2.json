@@ -1,0 +1,345 @@
+{
+    "categorias": [
+      {
+        "categoria": "Ficción",
+        "descripcion": "Descubre una variedad de novelas fascinantes y mundos imaginarios.",
+        "imagen": "img/ficcion/libroFiccion2.jpeg",
+        "libros": [
+                  {
+                    "titulo": "Cien años de soledad",
+                    "autor": "Gabriel García Márquez",
+                    "descripcion": "Un clásico de la literatura latinoamericana que narra la historia de la familia Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo.",
+                    "imagen": "img/ficcion/libroFiccion1.jpeg",
+                    "detalle": "La novela narra la historia de la familia Buendía en el pueblo ficticio de Macondo, explorando temas de amor, soledad y destino.",
+                    "precio": 24.99,
+                    "puntuacion": "★★★★★"
+                  },
+                  {
+                    "titulo": "1984",
+                    "autor": "George Orwell",
+                    "descripcion": "Una distopía clásica que presenta un sombrío futuro donde el gobierno totalitario controla todos los aspectos de la vida de las personas.",
+                    "imagen": "img/ficcion/libroFiccion2.jpeg",
+                    "detalle": "La novela describe un mundo distópico donde el Gran Hermano vigila constantemente a los ciudadanos y controla la verdad y la realidad.",
+                    "precio": 21.99,
+                    "puntuacion": "★★★★☆"
+                  },
+                  {
+                    "titulo": "El Gran Gatsby",
+                    "autor": "F. Scott Fitzgerald",
+                    "descripcion": "Una obra clásica de la literatura estadounidense que explora la decadencia del sueño americano en la década de 1920.",
+                    "imagen": "img/ficcion/libroFiccion3.jpeg",
+                    "detalle": "La novela sigue la vida de Jay Gatsby y su obsesión por el amor perdido, Daisy Buchanan, en la era del jazz y la ostentación.",
+                    "precio": 18.99,
+                    "puntuacion": "★★★★☆"
+                  }
+        ]
+      },
+      {
+        "categoria": "No ficción",
+        "descripcion": "Explora temas del mundo real, desde biografías hasta libros de divulgación científica.",
+        "imagen": "",
+        "libros": [
+                  {
+                    "titulo": "Breve historia del tiempo",
+                    "autor": "Stephen Hawking",
+                    "descripcion": "Un libro de divulgación científica que explora conceptos de la física teórica y el universo en un lenguaje accesible.",
+                    "imagen": "img/breveHistoriaDelTiempo.jpeg",
+                    "detalle": "Stephen Hawking explica conceptos como la relatividad, el Big Bang y los agujeros negros de manera comprensible para el público general.",
+                    "precio": 22.99,
+                    "puntuacion": "★★★★☆"
+                  },
+                  {
+                    "titulo": "Steve Jobs",
+                    "autor": "Walter Isaacson",
+                    "descripcion": "Una biografía autorizada de Steve Jobs, el cofundador de Apple, que narra su vida y su impacto en la tecnología.",
+                    "imagen": "img/steveJobs.jpeg",
+                    "detalle": "La biografía ofrece una visión profunda de la vida y la personalidad de Steve Jobs, así como su contribución a la industria de la tecnología.",
+                    "precio": 19.99,
+                    "puntuacion": "★★★★★"
+                  },
+                  {
+                    "titulo": "Sapiens: De animales a dioses",
+                    "autor": "Yuval Noah Harari",
+                    "descripcion": "Un libro que narra la historia de la humanidad, desde los primeros humanos hasta las sociedades modernas.",
+                    "imagen": "img/sapiens.jpeg",
+                    "detalle": "Yuval Noah Harari explora cómo los Homo sapiens se convirtieron en la especie dominante y cómo la cultura y la cooperación moldearon la historia.",
+                    "precio": 25.99,
+                    "puntuacion": "★★★★★"
+                  }
+                ]
+      },
+      {
+        "categoria": "Misterio y suspenso",
+        "descripcion": "Sumérgete en intrigantes enigmas y emocionantes aventuras de suspense.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "El código Da Vinci",
+                "autor": "Dan Brown",
+                "descripcion": "Un emocionante thriller que sigue al profesor Robert Langdon mientras descifra códigos y pistas en busca de un secreto milenario.",
+                "imagen": "img/elCodigoDaVinci.jpeg",
+                "detalle": "La novela mezcla arte, religión, historia y misterio, manteniendo a los lectores intrigados hasta la última página.",
+                "precio": 18.99,
+                "puntuacion": "★★★☆☆"
+              },
+              {
+                "titulo": "La chica del tren",
+                "autor": "Paula Hawkins",
+                "descripcion": "Un psicológico thriller que narra la historia de tres mujeres cuyas vidas se entrelazan en un oscuro misterio.",
+                "imagen": "img/laChicaDelTren.jpeg",
+                "detalle": "La novela es una montaña rusa de giros y sorpresas que mantendrá a los lectores en vilo hasta el final.",
+                "precio": 16.99,
+                "puntuacion": "★★★★☆"
+              },
+              {
+                "titulo": "El silencio de los corderos",
+                "autor": "Thomas Harris",
+                "descripcion": "Un thriller psicológico que sigue al agente del FBI Clarice Starling mientras persigue a un peligroso asesino en serie.",
+                "imagen": "img/elSilencioDeLosCorderos.jpeg",
+                "detalle": "La novela es conocida por su tensión psicológica y la relación entre Starling y el inteligente pero perturbado Dr. Hannibal Lecter.",
+                "precio": 21.99,
+                "puntuacion": "★★★★☆"
+              }
+            ]
+      },
+      {
+        "categoria": "Ciencia y tecnología",
+        "descripcion": "Aprende sobre los avances científicos y tecnológicos que están cambiando nuestro mundo.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "El gen egoísta",
+                "autor": "Richard Dawkins",
+                "descripcion": "Un libro revolucionario que explora la teoría de la evolución desde la perspectiva de los genes y cómo estos influyen en el comportamiento humano.",
+                "imagen": "img/elGenEgoista.jpeg",
+                "detalle": "Dawkins presenta conceptos complejos de manera accesible y desafía nuestra comprensión de la vida y la evolución.",
+                "precio": 17.99,
+                "puntuacion": "★★★★☆"
+              },
+              {
+                "titulo": "Steve Jobs",
+                "autor": "Walter Isaacson",
+                "descripcion": "Una biografía autorizada que narra la vida y el legado de Steve Jobs, el co-fundador de Apple Inc. y visionario de la tecnología.",
+                "imagen": "img/steveJobs.jpeg",
+                "detalle": "Isaacson ofrece una visión íntima de la vida de Jobs, sus innovaciones y su impacto en la industria tecnológica.",
+                "precio": 19.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Breve historia del tiempo",
+                "autor": "Stephen Hawking",
+                "descripcion": "Un libro que explora conceptos de la física teórica, como el origen del universo y los agujeros negros, en un lenguaje accesible para todos.",
+                "imagen": "img/breveHistoriaDelTiempo.jpeg",
+                "detalle": "Hawking desafía la comprensión convencional del cosmos y lo presenta de manera fascinante y accesible.",
+                "precio": 15.99,
+                "puntuacion": "★★★★☆"
+              }
+            ]
+      },
+      {
+        "categoria": "Autoayuda",
+        "descripcion": "Descubre consejos y técnicas para mejorar tu bienestar y crecimiento personal.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "El poder del ahora",
+                "autor": "Eckhart Tolle",
+                "descripcion": "Un libro que explora la importancia de vivir en el presente y cómo liberarnos de las preocupaciones y el sufrimiento mental.",
+                "imagen": "img/elPoderDelAhora.jpeg",
+                "detalle": "Tolle ofrece prácticas espirituales y consejos para encontrar la paz interior y la iluminación.",
+                "precio": 14.99,
+                "puntuacion": "★★★★☆"
+              },
+              {
+                "titulo": "Mente millonaria",
+                "autor": "Harv Eker",
+                "descripcion": "Un libro que explora la mentalidad de las personas ricas y cómo desarrollar una mentalidad de éxito y abundancia.",
+                "imagen": "img/menteMillonaria.jpeg",
+                "detalle": "Eker presenta estrategias financieras y psicológicas para transformar tus creencias sobre el dinero y la riqueza.",
+                "precio": 16.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "El arte de amar",
+                "autor": "Erich Fromm",
+                "descripcion": "Un libro clásico que explora la naturaleza del amor y cómo desarrollar relaciones amorosas y saludables.",
+                "imagen": "img/elArteDeAmar.jpeg",
+                "detalle": "Fromm examina el amor en sus diversas formas y ofrece consejos para encontrar y mantener relaciones amorosas.",
+                "precio": 13.99,
+                "puntuacion": "★★★★☆"
+              }
+            ]
+      },
+      {
+        "categoria": "Arte y fotografía",
+        "descripcion": "Explora el mundo del arte, desde pinturas hasta fotografía.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "El arte de la pintura",
+                "autor": "Leonardo da Vinci",
+                "descripcion": "Un libro que explora la vida y obra del famoso artista renacentista Leonardo da Vinci, con un enfoque en sus pinturas más icónicas.",
+                "imagen": "img/artePintura.jpeg",
+                "detalle": "Este libro ofrece una visión detallada de las técnicas y el proceso creativo de Leonardo da Vinci en el arte de la pintura.",
+                "precio": 24.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Fotografía creativa",
+                "autor": "Annie Leibovitz",
+                "descripcion": "Un libro que presenta el trabajo de la renombrada fotógrafa Annie Leibovitz y ofrece consejos sobre fotografía creativa.",
+                "imagen": "img/fotografiaCreativa.jpeg",
+                "detalle": "Leibovitz comparte su perspectiva única sobre la fotografía y revela las historias detrás de algunas de sus imágenes más famosas.",
+                "precio": 19.99,
+                "puntuacion": "★★★★☆"
+              },
+              {
+                "titulo": "Historia del arte",
+                "autor": "E.H. Gombrich",
+                "descripcion": "Un libro clásico que proporciona una introducción completa a la historia del arte desde la prehistoria hasta la actualidad.",
+                "imagen": "img/historiaDelArte.jpeg",
+                "detalle": "Gombrich explora los movimientos artísticos, los estilos y los artistas más importantes a lo largo de la historia.",
+                "precio": 21.99,
+                "puntuacion": "★★★★★"
+              }
+            ]
+      },
+      {
+        "categoria": "Historia",
+        "descripcion": "Viaja en el tiempo y explora eventos históricos y figuras importantes.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "Sapiens: De animales a dioses",
+                "autor": "Yuval Noah Harari",
+                "descripcion": "Una exploración fascinante de la historia de la humanidad, desde los primeros Homo sapiens hasta la era actual.",
+                "imagen": "img/sapiens.jpeg",
+                "detalle": "Un libro que desafía nuestra comprensión de la historia y nos lleva a reflexionar sobre el futuro de la humanidad.",
+                "precio": 29.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "El diario de Ana Frank",
+                "autor": "Ana Frank",
+                "descripcion": "El conmovedor testimonio de una niña judía que se escondió de los nazis durante la Segunda Guerra Mundial.",
+                "imagen": "img/anaFrank.jpeg",
+                "detalle": "Una obra literaria que nos sumerge en la vida de Ana Frank y su lucha por la supervivencia en tiempos difíciles.",
+                "precio": 18.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "1491: Nueva Revelaciones de las Americas Antes de Colon",
+                "autor": "Charles C. Mann",
+                "descripcion": "Un análisis revelador de las civilizaciones precolombinas en América y cómo impactaron en la historia del continente.",
+                "imagen": "img/1491.jpeg",
+                "detalle": "Un libro que cuestiona nuestras ideas preconcebidas sobre la historia de las Américas y ofrece nuevas perspectivas.",
+                "precio": 25.99,
+                "puntuacion": "★★★★☆"
+              }
+            ]
+      },
+      {
+        "categoria": "Infantil y juvenil",
+        "descripcion": "Encuentra libros para niños y adolescentes que fomentan la lectura y la imaginación.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "Harry Potter y la Piedra Filosofal",
+                "autor": "J.K. Rowling",
+                "descripcion": "La primera entrega de la serie de Harry Potter, que sigue al joven mago en su viaje a Hogwarts y su enfrentamiento con el villano Lord Voldemort.",
+                "imagen": "img/harryPotterPiedraFilosofal.jpeg",
+                "detalle": "Una historia mágica y llena de aventuras que ha cautivado a lectores de todas las edades en todo el mundo.",
+                "precio": 24.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Las Crónicas de Narnia: El León, la Bruja y el Armario",
+                "autor": "C.S. Lewis",
+                "descripcion": "El primer libro en la serie de Las Crónicas de Narnia, que narra las aventuras de niños que descubren un mundo mágico a través de un armario.",
+                "imagen": "img/cronicasDeNarnia.jpeg",
+                "detalle": "Un clásico de la literatura infantil que transporta a los lectores a un reino lleno de magia y criaturas extraordinarias.",
+                "precio": 19.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Percy Jackson y el ladrón del rayo",
+                "autor": "Rick Riordan",
+                "descripcion": "La primera entrega de la serie de Percy Jackson, que sigue las aventuras de un semidiós adolescente y sus amigos en un mundo de mitología griega.",
+                "imagen": "img/percyJacksonLadronRayo.jpeg",
+                "detalle": "Una emocionante saga que combina mitología, acción y humor, perfecta para lectores jóvenes y adultos por igual.",
+                "precio": 21.99,
+                "puntuacion": "★★★★☆"
+              }
+            ]
+      },
+      {
+        "categoria": "Fantasía",
+        "descripcion": "Sumérgete en mundos mágicos y aventuras épicas llenas de criaturas asombrosas.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "El Señor de los Anillos",
+                "autor": "J.R.R. Tolkien",
+                "descripcion": "Una epopeya de fantasía que sigue las aventuras de Frodo Bolsón y su misión para destruir el Anillo Único.",
+                "imagen": "img/elSenorDeLosAnillos.jpeg",
+                "detalle": "Una obra maestra de la literatura de fantasía que ha capturado la imaginación de generaciones de lectores.",
+                "precio": 29.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Harry Potter y la Piedra Filosofal",
+                "autor": "J.K. Rowling",
+                "descripcion": "La primera entrega de la serie de Harry Potter, que sigue al joven mago en su viaje a Hogwarts y su enfrentamiento con el villano Lord Voldemort.",
+                "imagen": "img/harryPotterPiedraFilosofal.jpeg",
+                "detalle": "Una historia mágica y llena de aventuras que ha cautivado a lectores de todas las edades en todo el mundo.",
+                "precio": 24.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Canción de hielo y fuego: Juego de tronos",
+                "autor": "George R.R. Martin",
+                "descripcion": "El primer libro de la aclamada serie de fantasía épica que inspiró la exitosa serie de televisión.",
+                "imagen": "img/juegoDeTronos.jpeg",
+                "detalle": "Un mundo lleno de intrigas políticas, personajes memorables y criaturas míticas, donde el poder y el honor se disputan en un juego mortal.",
+                "precio": 27.99,
+                "puntuacion": "★★★★☆"
+              }
+            ]
+      },
+      {
+        "categoria": "Intereses especiales",
+        "descripcion": "Explora libros sobre pasatiempos y temas específicos que te interesen.",
+        "imagen": "",
+        "libros": [
+              {
+                "titulo": "Libro de Recetas de Cocina Mediterránea",
+                "autor": "Chef Renata García",
+                "descripcion": "Una colección de recetas auténticas de la cocina mediterránea, con ingredientes frescos y sabores deliciosos.",
+                "imagen": "img/cocinaMediterranea.jpg",
+                "detalle": "Descubre los secretos de la cocina mediterránea y aprende a preparar platos saludables y deliciosos.",
+                "precio": 29.99,
+                "puntuacion": "★★★★☆"
+              },
+              {
+                "titulo": "Guía de Viaje a Machu Picchu",
+                "autor": "Ana Rodríguez",
+                "descripcion": "Una completa guía de viaje para explorar la maravillosa ciudadela de Machu Picchu en Perú.",
+                "imagen": "img/machuPicchu.jpg",
+                "detalle": "Consejos de viaje, rutas de senderismo, historia y recomendaciones para disfrutar al máximo de tu visita.",
+                "precio": 19.99,
+                "puntuacion": "★★★★★"
+              },
+              {
+                "titulo": "Fotografía de Vida Silvestre",
+                "autor": "David Smith",
+                "descripcion": "Una guía esencial para los amantes de la fotografía de naturaleza, con consejos y técnicas para capturar la belleza de la vida silvestre.",
+                "imagen": "img/fotografiaVidaSilvestre.jpg",
+                "detalle": "Aprende a tomar fotos impresionantes de animales, aves y paisajes naturales con esta guía completa.",
+                "precio": 24.99,
+                "puntuacion": "★★★☆☆"
+              }
+            ]
+          }
+    ]
+  }
+  

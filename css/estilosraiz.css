@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgb(248, 245, 252);
+  }
+  
+  /* variables */
+  .violeta{
+    background-color: rgb(217, 180, 251);
+  }
+  .sombraRadio{
+    box-shadow: 1px 1px  20px 3px rgb(189, 186, 186);
+   border-radius: 8px;
+  }
+  .centrado{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+  }
+  
+  .tarj-p{
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    font-size: x-large;
+    
+  }
+  .tarj-m{
+    margin-top: 1rem;
+    width: 3.5rem;
+    height: 4.3rem;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+  }
+ 
+  
+  
+  .img-m{
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+  }
+  
+  .navegador{
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    margin-top: 1rem;
+    padding: 1rem;
+  
+  }
+  .logo{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: black;
+    margin: 5rem 0.5rem 0.5rem 0.5rem;
+    height: 100px;
+  }
+  .usuario{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+  
+  .imagenUsuario{
+    width: 30px;
+  } 
+   
+ .inputBuscador{
+    margin-top: 1rem;
+    width: 55%;
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    
+  
+  } 
+  .container{
+    margin-top: 3rem;
+  }
+  /* Estilos CSS para personalizar la apariencia de la página */
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.product img {
+  max-width: 50%;
+}
+
+.product button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.product-detail {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.product-list {
+  width: 70%; /* Establece el ancho al 70% de la ventana gráfica */
+  margin: 0 auto; /* Centra el elemento horizontalmente */
+} 
+
+
+
+
+
+
+/* Estilos para pantalla grande (5 elementos por fila) */
+@media (min-width: 1200px) {
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 1rem;
+    width: 50%;
+    height: 7rem;
+  }
+
+  .categoria {
+    width: 12%; /* Ajusta el ancho según tus necesidades */
+    height: 5rem;
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: flex-end; */
+  }
+  
+}
+
+/* Estilos para pantalla mediana (3 elementos por fila) */
+@media (max-width: 1199px) {
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .categoria {
+    width: 25%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    border-radius: 5px;
+  }
+}
+
+/* Estilos para pantalla pequeña (2 elementos por fila) */
+@media (max-width: 768px) {
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: center; */
+    gap: 1rem;
+    padding-top: 3rem;
+    /* grid-template-rows: 3fr 1fr 1fr; */
+    /* width: 100px; */
+    /* height: 200px; */
+  }
+
+  .categoria {
+
+    width: 35%; /* Ajusta el ancho según tus necesidades */
+    height: 5rem;
+    /* margin-bottom: 2px; */
+    background-color: #007BFF;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr;
+    
+    
+  }
+}
+
+  
+  
+  
