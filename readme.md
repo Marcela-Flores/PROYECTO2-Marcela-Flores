@@ -3,7 +3,12 @@ Hola Buen día !!!....La idea de este proyecto es poder hacer una página de "li
 * moverse en un ambiente dinámico
 * Dejar comentarios y valoración de los pruductos
 * Cagar libros para vender
-* Ubicar a compradores cercas
+* Ubicar a compradores cercas de la zona del vendedor
+* Hacer un algoritmo que permita visualizar los mas valorados
+* Hacer un buscador donde se pueda acceder  por categoria, nombre o autor
+
+
+
 
 
 
